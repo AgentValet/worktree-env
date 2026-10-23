@@ -1,0 +1,31 @@
+{
+  "name": "worktree-env",
+  "version": "0.1.0",
+  "description": "Give every git worktree the env files from your main checkout. Built for parallel AI coding agents.",
+  "type": "module",
+  "bin": {
+    "worktree-env": "bin/worktree-env.mjs"
+  },
+  "files": [
+    "bin"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "git",
+    "worktree",
+    "dotenv",
+    "env",
+    "ai-agents",
+    "claude-code"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AgentValet/worktree-env.git"
+  },
+  "license": "MIT"
+}

@@ -17,7 +17,9 @@ linked    apps/api/.env
 linked    apps/web/.env.local
 ```
 
-No config, no dependencies. Node 18+.
+No config, no dependencies.
+
+**Requirements:** Node 18+ and git 2.5+ (the release that added `git worktree`).
 
 ## What it does
 
